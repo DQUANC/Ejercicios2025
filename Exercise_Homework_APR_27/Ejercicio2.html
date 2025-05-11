@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turisticos</title>
+    <style>
+        body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+    main {
+        padding: 20px;
+    }
+    section {
+        background: white;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 800px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+        color: #007bff;
+    }
+    .imagenes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .imagenes img {
+        width: 250px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: transform 0.3s;
+    }
+    .imagenes img:hover {
+        transform: scale(1.05);
+    }
+    table, td, th {
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <header>
+            <h1>Lugares Turisticos de America</h1>
+        </header>
+    <main>
+        <section>
+            <h2>Rio de Janeiro</h2>
+            <h3>Brazil</h3>
+            <p>Río de Janeiro es una enorme ciudad costera de Brasil, famosa por sus playas de Copacabana e Ipanema, la estatua del Cristo Redentor de 38 m de alto sobre el cerro del Corcovado y el morro Pan de Azúcar, una cima de granito con teleféricos que ascienden a su cima.</p>
+            <div class="imagenes">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/960px-Flag_of_Brazil.svg.png" alt="Bandera de Brazil">
+                <img src="https://comercioyjusticia.info/wp-content/uploads/2025/03/Cristo-Redentor-y-Pan-de-Azucar_RJ_Foto-Pedro-Kirilos_Riotur.jpg" alt="Rio de Janeiro">
+            </div>
+        </section>
+        <section>
+            <h2>Cataratas del Iguazú</h2>
+            <h3>Brazil y Argentina</h3>
+            <p>Una de las mayores y más espectaculares redes de cascadas del planeta, rodeada de una exuberante selva tropical. Es Patrimonio de la Humanidad y ofrece vistas increíbles desde ambos lados de la frontera.</p>
+            <div class="imagenes">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/960px-Flag_of_Brazil.svg.png" alt="Bandera de Brazil">
+                <img src="https://www.visitefoz.com.br/wp-content/uploads/2012/09/foto_cataratas_2.jpg" alt="Cataratas del Iguazu">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.svg.png" alt="Bandera de Argentina">
+            </div>
+        </section>
+        <section>
+            <h2>Chichén Itzá</h2>
+            <h3>Mexico</h3>
+            <p>Un majestuoso sitio arqueológico maya en Yucatán, donde destaca la pirámide de Kukulkán. Fue un importante centro político y religioso de la civilización maya, y hoy es una de las nuevas siete maravillas del mundo.</p>
+            <div class="imagenes">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/960px-Flag_of_Mexico.svg.png" alt="Bandera de Mexico">
+                <img src="https://www.fairmont-mayakoba.com/content/uploads/2023/10/Chichen-Itza-2-1200x462.jpg" alt="Chichen Itza">
+            </div>
+        </section>
+        <section>
+            <h2>2 lugares Turisticos de cada pais</h2>
+            <table>
+                <tr>
+                    <td>Pais</td>
+                    <td>Nombre</td>
+                    <td>Ciudad</td>
+                    <td>Descripcion</td>
+                    <td>Imagen</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"> Brazil</td>
+                    <td>Cristo Redentor</td>
+                    <td>Rio de Janeiro</td>
+                    <td>La icónica estatua de Jesucristo en la cima del cerro del Corcovado. Es uno de los símbolos más famosos de Brasil y una de las nuevas siete maravillas del mundo.</td>
+                    <td class = "imagenes">
+                        <a href="https://es.wikipedia.org/wiki/Brasil">
+                            <img src="https://i.pinimg.com/736x/a1/8e/92/a18e921b96aba8ef7540263d144d2d1d.jpg" alt="Cristo Redentor">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lençóis Maranhenses</td>
+                    <td>Maranhão</td>
+                    <td>Un parque nacional con dunas de arena blanca y lagunas de agua dulce formadas por las lluvias. Parece un desierto lleno de oasis, ¡un paisaje realmente único!</td>
+                    <td class = "imagenes">
+                        <a href="https://es.wikipedia.org/wiki/Brasil">
+                            <img src="https://whc.unesco.org/uploads/thumbs/site_1611_0007-594-0-20240531145322.jpg" alt="Lençóis Maranhenses">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+</body>
+</html>
